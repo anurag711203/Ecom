@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.head{
+    /* Header */
+    background-color: #282A35;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 60px;
+}
+
+#icon{
+    /* Site Icon */
+    width: 50px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 12px;
+    margin-left: 10%;
+
+}
+
+#icontext{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.search{
+    display: flex;
+    flex: 1;
+    align-items: baseline;
+    margin: 5px;
+    margin-left: 3rem;
+}
+.searchbar{
+    width: 60%;
+    min-width: 10rem;
+}
+
+.fa-sharp{
+    color: white;
+    margin-left: 8px;
+}
+.topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 10%;
+}
+.header_option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:  white;
+}
+
+/* kw starts */
+.KW{
+  background-color:grey;
+  text-align:center;
+  line-height: 0.9rem;
+color:white;
+margin-bottom:-10px;
+padding-top:50px;
+padding-bottom:100px;
+}
+.tittle{
+  font-size:10rem;
+  font-weight: normal;
+}
+/* kw end */
+
+/* footer */
+.footer {
+  background-color: #282A35;
+  color: white;
+  padding-bottom: 2rem;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+/* copyright */
+.copyright {
+  background-color: #282A35;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  padding-bottom: 5px;
+  margin-bottom:0;
+}
+
+.container {
+  text-align: center;
+}
+/* Subscribe */
+button {
+  background-color: white;
+  color: black;
+}
+/* icon */
+.f-icon {
+  text-align: center;
+  padding: 10px;
+}
+/* forms starts */
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  /* grid-template-rows: repeat(3, 1fr); */
+}
+
+.row1 {
+  grid-row: 1;
+}
+.row1 {
+  grid-row: 1;
+}
+.row1 {
+  grid-row: 1;
+}
+
+.cols1 {
+  grid-column: 1;
+}
+.rows {
+  margin-top: 4px;
+}
+/* forms end */
+
+/* footer ends */
