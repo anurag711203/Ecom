@@ -36,7 +36,7 @@ body {
   /* margin: auto; */
   min-width: 350px;
   text-align: center;
-  box-shadow: 2px 2px 2px 3px #888888;
+  box-shadow: 2px 2px 2px 3px #9c9c9c;
   border-radius: 7px;
   /* border: 1px solid black; */
 }
@@ -45,6 +45,7 @@ body {
   color: #fff;
   font-family: "lato";
   font-weight: 600;
+  padding: 4px;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
 }
