@@ -52,7 +52,7 @@
 }
 .login_link:hover {
   color: white;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .Login {
   margin-right: 10px;
