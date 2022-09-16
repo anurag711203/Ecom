@@ -31,7 +31,7 @@ a:visited {
   background-color: rgb(255, 252, 252);
   display: inline-block;
   width: 30%;
-  margin: 10% 0% 0% 15%;
+  margin: 5% 0% 0% 15%;
   /* padding: 0 2% 3% 2%; */
 
   /* margin: auto; */
@@ -124,6 +124,9 @@ a:visited {
 
 .fa-facebook {
   color: rgb(16, 40, 119);
+}
+.fa-twitter {
+  color: #00acee;
 }
 /* ********Social Media icons ends********** */
 /* before and after line */
