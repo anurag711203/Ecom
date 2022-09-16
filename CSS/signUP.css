@@ -24,12 +24,8 @@ a:visited {
   z-index: -1;
   width: 55%;
 }
-/* .bg {
-  position: absolute;
-  z-index: -2;
-  right: 0;
-} */
-/* *****Login Card Div********* */
+
+/* *****Sign Up Card Div********* */
 .logcard {
   padding-bottom: 1%;
   background-color: rgb(255, 252, 252);
@@ -49,14 +45,17 @@ a:visited {
   background-color: #000;
   color: #fff;
   font-family: "lato";
-  font-weight: 600;
   padding: 4px;
+  font-weight: 600;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
 }
 /* ******Header text "KitabWala" ***** */
 .head-small {
   font-weight: 300;
+}
+.home-link {
+  text-decoration: none;
 }
 /* ************Header Ends***************** */
 /* ********FORM***** */
@@ -74,7 +73,7 @@ a:visited {
 .entry:focus {
   outline: none;
 }
-.log-btn {
+.signUP-btn {
   padding: 1% 5%;
   color: #fff;
   font-size: 20px;
@@ -88,7 +87,7 @@ a:visited {
 }
 /* ******Form Ends******* */
 /* ******Remember Check box and forgot password link********** */
-.bottom_check {
+/* .bottom_check {
   display: flex;
   padding: 10px;
   justify-content: space-around;
@@ -100,14 +99,14 @@ a:visited {
 .remember:checked {
   accent-color: rgb(0, 0, 0);
   /* border: 1px solid black; */
-}
-.forgotpass {
+/* } */
+/* .forgotpass {
   color: rgb(87, 86, 86);
   text-decoration: underline;
 }
 .forgotpass:hover {
   color: black;
-}
+}  */
 /* ********Remember and forgot password ends************* */
 /* ****Social Media icons*********** */
 .socialmedia {
@@ -167,7 +166,7 @@ a:visited {
 }
 
 /* signup button */
-.signup-btn {
+.log-btn {
   padding: 1% 5%;
   margin-bottom: 5%;
   font-size: 20px;

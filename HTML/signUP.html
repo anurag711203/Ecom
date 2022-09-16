@@ -9,7 +9,7 @@
       crossorigin="anonymous"
     />
     <!--bootstrap source file -->
-    <link rel="stylesheet" href="../CSS/login.css" />
+    <link rel="stylesheet" href="../CSS/signUP.css" />
     <script
       src="https://kit.fontawesome.com/05163a050a.js"
       crossorigin="anonymous"
@@ -45,7 +45,7 @@
       rel="stylesheet"
     />
     <!-- *********** -->
-    <title>Login</title>
+    <title>Sign Up</title>
   </head>
   <body>
     <img class="bg-img" src="../images/bg.png" alt="Background Image" />
@@ -72,41 +72,41 @@
           <br />
           <input
             class="userpass entry"
-            type="text"
+            type="password"
             id="password"
             placeholder="Password"
           />
           <br />
-          <button type="submit" class="log-btn" value="login">Log In</button>
+          <input
+            class="userpass entry"
+            type="password"
+            id="Cpassword"
+            placeholder="Confirm Password"
+          />
+          <input
+            class="userpass entry"
+            type="tel"
+            id="tel"
+            placeholder="Contact Number"
+          />
+          <button type="submit" class="signUP-btn" value="signUP">
+            Sign Up
+          </button>
         </form>
       </div>
 
-      <div class="bottom_check">
-        <div class="rem-check">
-          <input
-            type="checkbox"
-            name="Remember"
-            class="remember"
-            checked="checked"
-            id="remember"
-          />
-          <label for="Remember">Remember me</label>
-        </div>
-
-        <a href="#" class="forgotpass" id="forgotpass">Forgot Password</a>
-      </div>
-      <p class="option">Or Log in with</p>
+      <p class="option">Or Sign Up with</p>
 
       <div class="socialmedia">
         <a href="#"><i class="fa fa-facebook"></i></a>
         <a href="#"><i class="fa fa-twitter"></i></a>
         <a href="#"><i class="fa fa-google"></i></a>
       </div>
-      <!-- area for new user -->
-      <p class="newuser">New User</p>
-      <a href="signUP.html">
-        <button type="button" name="button" class="signup-btn">Sign Up</button>
-      </a>
+      <!-- area for existing user -->
+      <p class="newuser">Existing User</p>
+      <a href="login.html"
+        ><button type="button" name="button" class="log-btn">Log In</button></a
+      >
     </div>
   </body>
 </html>
